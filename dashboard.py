@@ -6,5 +6,7 @@ def flip_coin():
     print(coin_flip)
     if coin_flip.lower == "heads":
         print("Heads!")
+    elif coin_flip.lower == "tails":
+        print("Tails!")
 flip_coin()
 
